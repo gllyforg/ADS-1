@@ -20,11 +20,11 @@ uint64_t nPrime(uint64_t n) {
     uint64_t count = 0;
     uint64_t k = 1;
 
-    while(true){
+    while (true) {
         k++;
-        if(chekPrime(k)){
+        if (checkPrime(k)) {
             count++;
-            if (count==n){
+            if (count == n) {
                 return k;
             }
         }
